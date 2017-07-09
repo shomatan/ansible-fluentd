@@ -10,7 +10,8 @@ RUN set -xe \
     && apk add --no-cache \
         ca-certificates \
         curl \
-        unzip
+        unzip \
+        bash
 
 RUN set -xe \
     && curl -sL "http://dl.bintray.com/sbt/native-packages/sbt/$SBT_VERSION/sbt-$SBT_VERSION.tgz" \
