@@ -1,4 +1,4 @@
-FROM java:9-jdk-alpine
+FROM ibmjava:9-sdk-alpine
 
 MAINTAINER Shoma Nishitateno <shoma416@gmail.com>
 
