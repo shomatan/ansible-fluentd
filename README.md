@@ -6,5 +6,6 @@ This image based on `jdk-alpine`.
 - SBT_HOME (By default `/usr/local/sbt`)
 
 ## Tags
-- latest (0.13.15-java-8)
+- latest (0.13.15-java-9)
+- 0.13.15-java-9
 - 0.13.15-java-8
