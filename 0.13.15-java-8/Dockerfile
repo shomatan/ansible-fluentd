@@ -14,7 +14,7 @@ RUN set -xe \
         bash
 
 RUN set -xe \
-    && curl -sL "http://dl.bintray.com/sbt/native-packages/sbt/$SBT_VERSION/sbt-$SBT_VERSION.tgz" \
+    && curl -sL "https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz" \
         | gunzip \
         | tar -x -C /usr/local \
     && sbt update
